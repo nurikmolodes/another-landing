@@ -6,7 +6,7 @@ import there from "../assets/there.svg";
 import heart from "../assets/heart.svg";
 import star from "../assets/star.svg";
 import user from "../assets/user.svg";
-import getNow from '../assets/getNow.svg'
+import getNow from "../assets/getNow.svg";
 
 const Home = () => {
   return (
@@ -17,13 +17,11 @@ const Home = () => {
           <div className="left">
             <p>Navigate through life with the help of modern astrology</p>
             <span>The #1 educating people by simplifying astrology for a greater awareness</span>
-          </div>
-          <div className="right">
-            <img src={together} />
+            <button>Try It Now</button>
           </div>
         </div>
       </div>
-      <div className="second-block">
+      {/* <div className="second-block">
         <div className="left">
           <img src={there} />
         </div>
@@ -59,7 +57,7 @@ const Home = () => {
       <div className="fourth-block">
         <p>Get now!</p>
         <img src={getNow} />
-      </div>
+      </div> */}
     </div>
   );
 };
