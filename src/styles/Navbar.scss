@@ -9,6 +9,15 @@
     max-width: 1250px;
     top: 0;
     left: 0;
+    @media (max-width: 1060px) {
+      max-width: 1000px;
+    }
+    @media (max-width: 594px) {
+      max-width: 800px;
+    }
+    @media (max-width: 485px) {
+      max-width: 600px;
+    }
   }
   span {
     margin-top: 20px;
@@ -31,7 +40,6 @@
     }
     @media (max-width: 485px) {
       padding: 10px 10px;
-      margin-top: 150px;
     }
   }
   .buttons {
@@ -49,7 +57,6 @@
     }
     @media (max-width: 485px) {
       padding: 10px 10px;
-      margin-top: 150px;
     }
     button {
       display: flex;
