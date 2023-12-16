@@ -7,12 +7,12 @@ import heart from "../assets/heart.svg";
 import star from "../assets/star.svg";
 import user from "../assets/user.svg";
 import getNow from "../assets/getNow.svg";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="first-block">
-        <Navbar />
         <div className="content">
           <div className="left">
             <p>Navigate through life with the help of modern astrology</p>
@@ -51,10 +51,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* <div className="fourth-block">
+      <div className="fourth-block">
         <p>Get now!</p>
         <img src={getNow} />
-      </div> */}
+        <button>Try It Now</button>
+      </div>
+      <Footer />
     </div>
   );
 };
