@@ -1,13 +1,9 @@
-import React from "react";
-import Navbar from "../components/Navbar";
-import "../styles/Home.scss";
-import together from "../assets/together.svg";
-import there from "../assets/there.svg";
 import heart from "../assets/heart.svg";
 import star from "../assets/star.svg";
 import user from "../assets/user.svg";
-import getNow from "../assets/getNow.svg";
 import Footer from "../components/Footer";
+import GetNow from "../components/GetNow";
+import "../styles/pages/Home.scss";
 
 const Home = () => {
   return (
@@ -51,11 +47,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="fourth-block">
-        <p>Get now!</p>
-        <img src={getNow} />
-        <button>Try It Now</button>
-      </div>
+      <GetNow />
       <Footer />
     </div>
   );

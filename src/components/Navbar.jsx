@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/Navbar.scss";
+import "../styles/components/Navbar.scss";
 import { useNavigate } from "react-router-dom";
 import upperVector from "../assets/upperVector.svg";
 
