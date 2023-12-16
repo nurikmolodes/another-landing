@@ -30,6 +30,26 @@ const Home = () => {
             insights, with a fun and friendly approach.
           </span>
         </div>
+        <div className="three-blocks">
+          <div className="block">
+            <img src={heart} />
+            <p>Compatibility</p>
+            <span>Create your compatibility reports on intimacy, friendship, family and work</span>
+          </div>
+          <div className="block">
+            <img src={star} />
+            <p>Horoscope</p>
+            <span>
+              Access your unique insights to better prepare for the future based on the real-time
+              data of each planetary position and movement
+            </span>
+          </div>
+          <div className="block">
+            <img src={user} />
+            <p>Your chart</p>
+            <span>Everything you need to know to decode your chart and your personality</span>
+          </div>
+        </div>
       </div>
       {/* <div className="fourth-block">
         <p>Get now!</p>
