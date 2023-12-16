@@ -21,12 +21,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* <div className="second-block">
-        <div className="left">
-          <img src={there} />
-        </div>
-        <div className="right">
-          <p>Heading 2 → Hyper-personalized astrology</p>
+      <div className="second-block">
+        <div className="text">
+          <p>Hyper-personalized astrology</p>
           <span>
             Hint combines NASA data to produce the blueprint of your astrological identity, with
             1-on-1 guidance and knowledge from professional astrologers, to provide personalized
@@ -34,27 +31,7 @@ const Home = () => {
           </span>
         </div>
       </div>
-      <div className="third-block">
-        <div className="block">
-          <img src={heart} />
-          <p>Compatibility</p>
-          <span>Create your compatibility reports on intimacy, friendship, family and work</span>
-        </div>
-        <div className="block">
-          <img src={star} />
-          <p>Horoscope</p>
-          <span>
-            Access your unique insights to better prepare for the future based on the real-time data
-            of each planetary position and movement
-          </span>
-        </div>
-        <div className="block">
-          <img src={user} />
-          <p>Your chart</p>
-          <span>Everything you need to know to decode your chart and your personality</span>
-        </div>
-      </div>
-      <div className="fourth-block">
+      {/* <div className="fourth-block">
         <p>Get now!</p>
         <img src={getNow} />
       </div> */}

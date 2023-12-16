@@ -1,5 +1,7 @@
 .home {
   .first-block {
+    z-index: 2;
+    position: relative;
     // background: linear-gradient(
     //   180deg,
     //   rgba(172, 216, 239, 0.5) -2.24%,
@@ -90,90 +92,54 @@
     }
   }
   .second-block {
-    background: #f6f7fa;
-    display: flex;
-    align-items: center;
-    padding: 57px 120px;
-    gap: 100px;
-    @media (max-width: 770px) {
-      padding: 50px 50px;
+    background: url("../assets/back.svg");
+    background-position: right;
+    width: 100%;
+    height: 1940px;
+    position: relative;
+    bottom: 200px;
+    @media (max-width: 785px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    @media (max-width: 485px) {
-      padding: 10px 10px;
-    }
-    @media (max-width: 1160px) {
-      flex-direction: column-reverse;
-    }
-    .left {
-      img {
-      }
-    }
-    .right {
+    .text {
+      position: relative;
+      z-index: 1;
+      top: 600px;
+      float: right;
+      max-width: 683px;
       display: flex;
       flex-direction: column;
       gap: 23px;
+      right: 50px;
+      padding: 0 20px;
+      @media (max-width: 785px) {
+        float: none;
+        right: 0;
+      }
       p {
-        color: var(--Heading, #25282f);
+        max-width: 579px;
+        color: #fff;
         font-family: Trebuchet MS;
-        font-size: 35px;
+        font-size: 42px;
         font-style: normal;
         font-weight: 700;
         line-height: 49px; /* 116.667% */
         letter-spacing: 0.105px;
       }
       span {
-        color: var(--Body, #646670);
+        color: #fff;
         font-family: Trebuchet MS;
-        font-size: 22px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: 34px; /* 141.667% */
+        max-width: 683px;
       }
     }
   }
-  .third-block {
-    display: flex;
-    justify-content: center;
-    gap: 21px;
-    padding: 200px 120px;
-    @media (max-width: 535px) {
-      padding: 100px 50px;
-    }
-    background: var(--White, #fff);
-    @media (max-width: 1238px) {
-      flex-direction: column;
-    }
-    .block {
-      display: flex;
-      max-height: 100%;
-      padding: 31px;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 15px;
-      border-radius: 16px;
-      background: #fff;
-      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-      p {
-        color: var(--Heading, #25282f);
-        font-family: Trebuchet MS;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px; /* 142.857% */
-      }
-      span {
-        color: var(--Body, #646670);
 
-        /* Body Text */
-        font-family: Trebuchet MS;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%; /* 24px */
-        max-width: 320px;
-      }
-    }
-  }
   .fourth-block {
     display: flex;
     flex-direction: column;
