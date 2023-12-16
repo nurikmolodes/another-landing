@@ -51,11 +51,11 @@
         button {
           display: flex;
           height: 54px;
-          padding: 15px 140px;
+          max-width: 360px;
+          width: 100%;
           justify-content: center;
           align-items: center;
           gap: 10px;
-          flex-shrink: 0;
           border-radius: 16px;
           background: var(--Grad, linear-gradient(139deg, #404065 10.29%, #0085ff 94.53%));
           color: var(--White, #fff);
