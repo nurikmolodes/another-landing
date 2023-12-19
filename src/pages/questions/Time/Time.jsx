@@ -4,7 +4,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 const Time = () => {
   const [time, setTime] = useState("");
-  const [minutes, setMinutes] = useState("");
   const isButtonDisabled = time === "";
   const navigate = useNavigate();
   const location = useLocation();

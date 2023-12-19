@@ -39,7 +39,7 @@ const Progress = () => {
       <div className="bar">
         <div className="left-circle"></div>
         <div className="fill" style={{ width: `${percentage}%` }}></div>
-        <div className={`right-circle ${location.pathname === "/guidance" && "filled"}`}></div>
+        <div className={`right-circle ${location.pathname === "/email" && "filled"}`}></div>
       </div>
     </div>
   );

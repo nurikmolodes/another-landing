@@ -16,7 +16,6 @@ import Place from "./pages/questions/Place/Place";
 
 function App() {
   const footerRoutes = ["/name", "/gender", "/birthday", "/time", "/place", "/email"];
-  const navigate = useNavigate();
   const location = useLocation();
   const shouldDisplayHeader = footerRoutes.includes(location.pathname);
   const navRoutes = ["/", "/about"];

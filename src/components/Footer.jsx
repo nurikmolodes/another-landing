@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/components/Footer.scss";
 
 const Footer = () => {
@@ -6,8 +5,12 @@ const Footer = () => {
     <div className="footer">
       <ul>
         <li>© 2023, All rights reserved.</li>
-        <li>Help and Support</li>
-        <li>Legal</li>
+        <a href="mailto:info@astropulse.app">
+          <li>Help and Support</li>
+        </a>
+        <a href="https://appmediaco.com/Policy.html">
+          <li>Policy</li>
+        </a>
       </ul>
     </div>
   );

@@ -7,45 +7,50 @@ import GetNow from "../components/GetNow";
 import "../styles/pages/Home.scss";
 
 const Home = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className="home">
       <div className="first-block">
         <div className="content">
           <div className="left">
-            <p>Navigate through life with the help of modern astrology</p>
-            <span>The #1 educating people by simplifying astrology for a greater awareness</span>
+            <p>Explore life using contemporary astrology.</p>
+            <span>We are making astrology easy for better understanding.</span>
             <button onClick={() => navigate("/name")}>Try It Now</button>
           </div>
         </div>
       </div>
       <div className="second-block">
         <div className="text">
-          <p>Hyper-personalized astrology</p>
+          <p>Astrology tailored just for you.</p>
           <span>
-            Hint combines NASA data to produce the blueprint of your astrological identity, with
-            1-on-1 guidance and knowledge from professional astrologers, to provide personalized
-            insights, with a fun and friendly approach.
+            AstroPulse crafts a unique astrological profile for you, blending data to offer
+            personalized insights. Receive 1-on-1 guidance and wisdom from skilled astrologers in a
+            friendly and enjoyable manner.
           </span>
         </div>
         <div className="three-blocks">
           <div className="block">
             <img src={heart} />
             <p>Compatibility</p>
-            <span>Create your compatibility reports on intimacy, friendship, family and work</span>
+            <span>
+              Reports of your compatibility in relationship, friendship just in a seconds!
+            </span>
           </div>
           <div className="block">
             <img src={star} />
             <p>Horoscope</p>
             <span>
-              Access your unique insights to better prepare for the future based on the real-time
-              data of each planetary position and movement
+              Gain exclusive insights to prepare for the future using real-time data on planetary
+              positions and movements.
             </span>
           </div>
           <div className="block">
             <img src={user} />
             <p>Your chart</p>
-            <span>Everything you need to know to decode your chart and your personality</span>
+            <span>
+              Define your chart and understand your personality with all the essential information
+              you need.
+            </span>
           </div>
         </div>
       </div>

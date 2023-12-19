@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/pages/About.scss";
 import matrix from "../assets/matrix.svg";
 import GetNow from "../components/GetNow";
@@ -16,17 +15,16 @@ const About = () => {
       </div>
       <div className="second-block">
         <div className="wrapper">
-          <span>Decode Your Destiny with Hint Astrology</span>
+          <span>Unravel your Path with AstroPulse.</span>
           <p>
-            At <a href="">Hint</a>, we believe your birth chart holds the keys to unlocking your
-            greatest potential. Our app provides personalised astrological insights to help you
-            navigate all of life's adventures and challenges.
+            Unlock the secrets to your greatest potential through your birth chart. AstroPulse
+            offers personalized astrological insights, guiding you through life's adventures and
+            challenges.
           </p>
           <p>
-            We go beyond superficial sun sign horoscopes to deliver hyper-personalised guidance
-            based on the unique positioning of planets at your exact time and location of birth. Our
-            advanced AI technology synthesises NASA data along with astrological principles to
-            generate your natal chart and detailed reports. 
+            We delve deeper than superficial sun sign horoscopes, providing highly personalized
+            guidance based on the precise positions of planets at your exact time and place of
+            birth.
           </p>
         </div>
       </div>
