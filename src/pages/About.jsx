@@ -3,14 +3,16 @@ import "../styles/pages/About.scss";
 import matrix from "../assets/matrix.svg";
 import GetNow from "../components/GetNow";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const navigate = useNavigate();
   return (
     <div className="about">
       <div className="first-block">
         <p>About Astrology</p>
         <img src={matrix} />
-        <button>Try It Now</button>
+        <button onClick={() => navigate("/name")}>Try It Now</button>
       </div>
       <div className="second-block">
         <div className="wrapper">

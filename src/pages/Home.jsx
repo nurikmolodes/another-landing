@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import heart from "../assets/heart.svg";
 import star from "../assets/star.svg";
 import user from "../assets/user.svg";
@@ -6,6 +7,7 @@ import GetNow from "../components/GetNow";
 import "../styles/pages/Home.scss";
 
 const Home = () => {
+  const navigate = useNavigate()
   return (
     <div className="home">
       <div className="first-block">
@@ -13,7 +15,7 @@ const Home = () => {
           <div className="left">
             <p>Navigate through life with the help of modern astrology</p>
             <span>The #1 educating people by simplifying astrology for a greater awareness</span>
-            <button>Try It Now</button>
+            <button onClick={() => navigate("/name")}>Try It Now</button>
           </div>
         </div>
       </div>

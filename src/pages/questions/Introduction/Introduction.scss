@@ -1,0 +1,12 @@
+.introduction {
+  background-image: linear-gradient(358.53deg, rgb(36, 45, 124) -20.35%, rgb(0, 174, 239) 86.02%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .svg {
+    width: 200px;
+    height: 200px;
+  }
+}

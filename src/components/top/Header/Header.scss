@@ -1,0 +1,16 @@
+.header {
+  height: 50px;
+  background: #eff2fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  svg {
+    position: absolute;
+    left: 25px;
+    cursor: pointer;
+  }
+  img {
+    width: 80px;
+  }
+}
