@@ -57,7 +57,7 @@ const Place = () => {
   };
 
   return (
-    <div className="name">
+    <div className="place">
       <div className="title">
         <span>Where were you born?</span>
       </div>

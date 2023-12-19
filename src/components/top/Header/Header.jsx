@@ -42,7 +42,7 @@ const Header = () => {
           strokeLinecap="round"
           strokeLinejoin="round"></path>
       </svg>
-      <img src={hint} />
+      <img src={hint} onClick={() => navigate("/")} />
     </div>
   );
 };
